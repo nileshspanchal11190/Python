@@ -4,7 +4,7 @@ try:
     # Ask the user to input the YouTube URL
     url = input("Enter the YouTube URL: ")
     
-    yt = YouTube(url)  # Example URL
+    yt = YouTube(url)  
     
     print("Title:", yt.title)
     print("Views:", yt.views)
